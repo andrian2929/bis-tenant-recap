@@ -1,0 +1,27 @@
+{
+  "name": "bis_tenant_recap",
+  "version": "1.0.0",
+  "description": "Command line tool to recap count and average of opportunity and closed-win",
+  "bin": {
+    "bis-tenant": "./dist/Main.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/Main.ts",
+    "build": "tsc"
+  },
+  "author": "Andrian Putra Ramadan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@types/commander": "^2.12.2",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.9.3"
+  }
+}
